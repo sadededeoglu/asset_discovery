@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "asset_discovery", "asset_discovery\asset_discovery.pyproj", "{86CAAC26-EC9C-49EF-B6C0-B9170D645D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86CAAC26-EC9C-49EF-B6C0-B9170D645D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CAAC26-EC9C-49EF-B6C0-B9170D645D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56D808F2-5257-48C0-ABE2-37CB658ABE89}
+	EndGlobalSection
+EndGlobal
