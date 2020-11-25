@@ -7,4 +7,4 @@ class checkControl:
         hostscan = nmap.PortScanner() 
         results = hostscan.scan(hosts=IPAddress+'/24', arguments='-T4') 
         end=results['scan'] 
-        reSturn(end) 
+        return(end) 
