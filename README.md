@@ -1,6 +1,6 @@
-# asset Discovery
+# Asset Discovery
 
-Proje Amacı: flask ile girilen ip adresinin bulunduğu network ağının  icinde bir nmap taraması başlatıp o ağdaki tüm ip adreslerinin açık portlarını taratıp sonuclarını json veri formatında ekrana çıktı olarak verir.
+Proje Amacı: Flask ile girilen ip adresinin bulunduğu network ağının  icinde bir nmap taraması başlatıp o ağdaki tüm ip adreslerinin açık portlarını taratıp sonuclarını json veri formatında ekrana çıktı olarak verir.
 
 Control.py
 
@@ -48,7 +48,7 @@ Flask-RESTful :REST API'lerini hızla oluşturmak için destek ekleyen bir Flask
 # from flask_restful import Resource, Api
 # from control import checkControl
 
-4)__name__ değişkeni dosyanın (modülünün) hangi yolla çağrıldığını kontrol eder. 
+4)_ _name_ _ değişkeni dosyanın (modülünün) hangi yolla çağrıldığını kontrol eder. 
 
 # app = Flask(__name__)
 # api = Api(app)
@@ -73,7 +73,7 @@ Flask-RESTful :REST API'lerini hızla oluşturmak için destek ekleyen bir Flask
 
 # if _ _name_ _ == '_ _main_ _':
 
-10)hangi ip ve port üstünden bu bilgilere erişebileceğimizi belirlenir.
+10)Hangi ip ve port üstünden bu bilgilere erişebileceğimizi belirlenir.
 
 # app.run(host='127.0.0.1', port='5000', debug=True)
 
