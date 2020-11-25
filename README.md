@@ -47,4 +47,32 @@ Flask-RESTful :REST API'lerini hızla oluşturmak için destek ekleyen bir Flask
 # from flask_restful import Resource, Api
 # from control import checkControl
 
-4)
+4)__name__ değişkeni dosyanın (modülünün) hangi yolla çağrıldığını kontrol eder. 
+
+# app = Flask(__name__)
+# api = Api(app)
+
+5)İçerisinde resource olan bir class oluşturuyor.
+
+# class nmapCheck(Resource):
+
+6)Get metodunu kullanarak fonksiyon oluşturup 2 parametre veriyor.
+
+# def get(a, IPAddress):
+
+7)Control dosyasından getirilen checkControl class ının içinden checkNmap fonksiyonunu çağırarak ip adresini döndürüyor.
+
+# return(checkControl.checkNmap(IPAddress))
+
+8)Tanımlanış olan apinin içinden add_resource alınıp nmapCheck class ı içinde dönecek olan ip adresinin girdisi alınıyor
+
+# api.add_resource(nmapCheck, '/nmap/<string:IPAddress>')
+
+9) name == "__main__" kontrolü dışarıdan import edildiğinde hangi alanların çalıştırılacağının seçimini yapar.
+
+# if __name__ == '__main__':
+
+10)hangi ip ve port üstünden bu bilgilere erişebileceğimizi belirliyor.
+
+# app.run(host='127.0.0.1', port='5000', debug=True)
+
