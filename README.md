@@ -50,7 +50,7 @@ Flask-RESTful :REST API'lerini hızla oluşturmak için destek ekleyen bir Flask
 
 4)_ _name_ _ değişkeni dosyanın (modülünün) hangi yolla çağrıldığını kontrol eder. 
 
-# app = Flask(__name__)
+# app = Flask(_ _name_ _)
 # api = Api(app)
 
 5)İçerisinde resource olan bir class oluşturulur.
