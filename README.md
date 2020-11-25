@@ -40,7 +40,9 @@ Discovery.py
 
 1)Flask :api dir. ‘uygulama programlama arayüzü’
 Flask-RESTful :REST API'lerini hızla oluşturmak için destek ekleyen bir Flask uzantısıdır. Mevcut ORM / kütüphanelerinizle çalışan hafif bir soyutlamadır. Flask-RESTful, minimum kurulumla en iyi uygulamaları teşvik eder.
+
 2)Flask-RESTful kütüphanesinin içinden resource ve Api import ediliyor
+
 3)Control dosyası içinden checkControl class ı import ediliyor 
 
 # from flask import Flask, request
